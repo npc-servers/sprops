@@ -1,4 +1,7 @@
 ---------------------------------------------------------------
+-- CL DOWNLOAD 
+resource.AddWorkshop( "173482196" )
+---------------------------------------------------------------
 -- OVERRIDE MATERIALS LIST
 list.Add("OverrideMaterials", "sprops/sprops_grid_12x12")
 list.Add("OverrideMaterials", "sprops/sprops_grid_orange_12x12")
