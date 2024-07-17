@@ -1,7 +1,4 @@
 ---------------------------------------------------------------
--- CL DOWNLOAD 
-resource.AddWorkshop( "173482196" )
----------------------------------------------------------------
 -- OVERRIDE MATERIALS LIST
 list.Add("OverrideMaterials", "sprops/sprops_grid_12x12")
 list.Add("OverrideMaterials", "sprops/sprops_grid_orange_12x12")
@@ -38,6 +35,8 @@ list.Add("OverrideMaterials", "sprops/trans/misc/beam_side")
 
 if SERVER then
 	---------------------------------------------------------------
+	-- CL DOWNLOAD
+	resource.AddWorkshop( "173482196" )
 	-- CUSTOM PA OFFSETS
 	list.Set("PA_mirror_exceptions", "models/sprops/trans/wheel_d", Angle(180, 180, 0))
 	list.Set("PA_mirror_exceptions", "models/sprops/trans/wheel_b", Angle(180, 180, 0))
